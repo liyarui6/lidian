@@ -14,13 +14,13 @@
 | 开发阶段 | [docs/05-开发阶段.md](docs/05-开发阶段.md) | 各阶段任务和验收标准 |
 | 部署指南 | [docs/06-部署指南.md](docs/06-部署指南.md) | GitHub Pages部署步骤 |
 
-## 源码路径（src/）
+## 源码路径（/）
 
 | 文件 | 用途 |
 |------|------|
-| [src/index.html](src/index.html) | 主应用（HTML+CSS+JS合一） |
-| [src/sw.js](src/sw.js) | Service Worker（离线缓存） |
-| [src/manifest.json](src/manifest.json) | PWA配置文件 |
+| [/index.html](/index.html) | 主应用（HTML+CSS+JS合一） |
+| [/sw.js](/sw.js) | Service Worker（离线缓存） |
+| [/manifest.json](/manifest.json) | PWA配置文件 |
 
 ## 工作约定
 
@@ -28,7 +28,7 @@
 2. **日志记录**：每次工作开始时在 `开发日志/` 下创建当日日志（格式：`YYYY-MM-DD.md`），工作结束时更新完成和待办事项
 3. **先查文档再写代码**：每次编码前先阅读对应的 docs/ 标准文档，确保实现与规范一致
 4. **及时验证**：代码修改后在浏览器中验证效果
-5. **代码放 src/**：所有源码文件放在 `src/` 目录下
+5. **代码放 /**：所有源码文件放在 `/` 目录下
 6. **保持简洁**：不引入第三方框架或库，纯HTML/CSS/JS实现
 
 ## 开发节奏
