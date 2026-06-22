@@ -1,0 +1,19 @@
+{
+  "name": "小点记账",
+  "short_name": "小点记账",
+  "description": "简洁的离线记账应用",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FFF8E1",
+  "theme_color": "#F9A825",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23F9A825'/><text x='50' y='68' text-anchor='middle' font-size='60' fill='white'>¥</text></svg>",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
